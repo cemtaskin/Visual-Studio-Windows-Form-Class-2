@@ -30,17 +30,17 @@ namespace SimpleCalculator
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblFirstNumberLabel = new System.Windows.Forms.Label();
-            this.lblSecondNumber = new System.Windows.Forms.Label();
-            this.txtFirstNumber = new System.Windows.Forms.TextBox();
-            this.txtSecondNumber = new System.Windows.Forms.TextBox();
-            this.lblResultLabel = new System.Windows.Forms.Label();
             this.lblResult = new System.Windows.Forms.Label();
+            this.lblResultLabel = new System.Windows.Forms.Label();
+            this.txtSecondNumber = new System.Windows.Forms.TextBox();
+            this.txtFirstNumber = new System.Windows.Forms.TextBox();
+            this.lblSecondNumber = new System.Windows.Forms.Label();
+            this.lblFirstNumberLabel = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnSubstract = new System.Windows.Forms.Button();
-            this.btnMultiply = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
+            this.btnMultiply = new System.Windows.Forms.Button();
+            this.btnSubstract = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -59,37 +59,13 @@ namespace SimpleCalculator
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // lblFirstNumberLabel
+            // lblResult
             // 
-            this.lblFirstNumberLabel.AutoSize = true;
-            this.lblFirstNumberLabel.Location = new System.Drawing.Point(22, 20);
-            this.lblFirstNumberLabel.Name = "lblFirstNumberLabel";
-            this.lblFirstNumberLabel.Size = new System.Drawing.Size(66, 13);
-            this.lblFirstNumberLabel.TabIndex = 0;
-            this.lblFirstNumberLabel.Text = "First Number";
-            // 
-            // lblSecondNumber
-            // 
-            this.lblSecondNumber.AutoSize = true;
-            this.lblSecondNumber.Location = new System.Drawing.Point(22, 48);
-            this.lblSecondNumber.Name = "lblSecondNumber";
-            this.lblSecondNumber.Size = new System.Drawing.Size(84, 13);
-            this.lblSecondNumber.TabIndex = 1;
-            this.lblSecondNumber.Text = "Second Number";
-            // 
-            // txtFirstNumber
-            // 
-            this.txtFirstNumber.Location = new System.Drawing.Point(158, 20);
-            this.txtFirstNumber.Name = "txtFirstNumber";
-            this.txtFirstNumber.Size = new System.Drawing.Size(100, 20);
-            this.txtFirstNumber.TabIndex = 2;
-            // 
-            // txtSecondNumber
-            // 
-            this.txtSecondNumber.Location = new System.Drawing.Point(158, 48);
-            this.txtSecondNumber.Name = "txtSecondNumber";
-            this.txtSecondNumber.Size = new System.Drawing.Size(100, 20);
-            this.txtSecondNumber.TabIndex = 3;
+            this.lblResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.lblResult.Location = new System.Drawing.Point(155, 75);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(103, 20);
+            this.lblResult.TabIndex = 5;
             // 
             // lblResultLabel
             // 
@@ -100,13 +76,37 @@ namespace SimpleCalculator
             this.lblResultLabel.TabIndex = 4;
             this.lblResultLabel.Text = "Result";
             // 
-            // lblResult
+            // txtSecondNumber
             // 
-            this.lblResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.lblResult.Location = new System.Drawing.Point(155, 75);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(103, 20);
-            this.lblResult.TabIndex = 5;
+            this.txtSecondNumber.Location = new System.Drawing.Point(158, 48);
+            this.txtSecondNumber.Name = "txtSecondNumber";
+            this.txtSecondNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtSecondNumber.TabIndex = 3;
+            // 
+            // txtFirstNumber
+            // 
+            this.txtFirstNumber.Location = new System.Drawing.Point(158, 20);
+            this.txtFirstNumber.Name = "txtFirstNumber";
+            this.txtFirstNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtFirstNumber.TabIndex = 2;
+            // 
+            // lblSecondNumber
+            // 
+            this.lblSecondNumber.AutoSize = true;
+            this.lblSecondNumber.Location = new System.Drawing.Point(22, 48);
+            this.lblSecondNumber.Name = "lblSecondNumber";
+            this.lblSecondNumber.Size = new System.Drawing.Size(84, 13);
+            this.lblSecondNumber.TabIndex = 1;
+            this.lblSecondNumber.Text = "Second Number";
+            // 
+            // lblFirstNumberLabel
+            // 
+            this.lblFirstNumberLabel.AutoSize = true;
+            this.lblFirstNumberLabel.Location = new System.Drawing.Point(22, 20);
+            this.lblFirstNumberLabel.Name = "lblFirstNumberLabel";
+            this.lblFirstNumberLabel.Size = new System.Drawing.Size(66, 13);
+            this.lblFirstNumberLabel.TabIndex = 0;
+            this.lblFirstNumberLabel.Text = "First Number";
             // 
             // groupBox2
             // 
@@ -120,23 +120,16 @@ namespace SimpleCalculator
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
-            // btnAdd
+            // btnDivide
             // 
-            this.btnAdd.Location = new System.Drawing.Point(7, 20);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(60, 23);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // btnSubstract
-            // 
-            this.btnSubstract.Location = new System.Drawing.Point(83, 20);
-            this.btnSubstract.Name = "btnSubstract";
-            this.btnSubstract.Size = new System.Drawing.Size(60, 23);
-            this.btnSubstract.TabIndex = 1;
-            this.btnSubstract.Text = "Substract";
-            this.btnSubstract.UseVisualStyleBackColor = true;
+            this.btnDivide.Location = new System.Drawing.Point(224, 20);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(60, 23);
+            this.btnDivide.TabIndex = 3;
+            this.btnDivide.Tag = "4";
+            this.btnDivide.Text = "Divide";
+            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnOperation);
             // 
             // btnMultiply
             // 
@@ -144,17 +137,32 @@ namespace SimpleCalculator
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(60, 23);
             this.btnMultiply.TabIndex = 2;
+            this.btnMultiply.Tag = "3";
             this.btnMultiply.Text = "Multiply";
             this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnOperation);
             // 
-            // btnDivide
+            // btnSubstract
             // 
-            this.btnDivide.Location = new System.Drawing.Point(224, 20);
-            this.btnDivide.Name = "btnDivide";
-            this.btnDivide.Size = new System.Drawing.Size(60, 23);
-            this.btnDivide.TabIndex = 3;
-            this.btnDivide.Text = "Divide";
-            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnSubstract.Location = new System.Drawing.Point(83, 20);
+            this.btnSubstract.Name = "btnSubstract";
+            this.btnSubstract.Size = new System.Drawing.Size(60, 23);
+            this.btnSubstract.TabIndex = 1;
+            this.btnSubstract.Tag = "2";
+            this.btnSubstract.Text = "Substract";
+            this.btnSubstract.UseVisualStyleBackColor = true;
+            this.btnSubstract.Click += new System.EventHandler(this.btnOperation);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(7, 20);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(60, 23);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Tag = "1";
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnOperation);
             // 
             // Form1
             // 
