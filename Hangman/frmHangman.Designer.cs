@@ -47,7 +47,7 @@ namespace Hangman
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(24, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(433, 97);
+            this.groupBox1.Size = new System.Drawing.Size(610, 97);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -57,7 +57,7 @@ namespace Hangman
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(427, 78);
+            this.label1.Size = new System.Drawing.Size(604, 78);
             this.label1.TabIndex = 0;
             // 
             // groupBox2
@@ -65,7 +65,7 @@ namespace Hangman
             this.groupBox2.Controls.Add(this.lblLetter);
             this.groupBox2.Location = new System.Drawing.Point(24, 117);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(430, 182);
+            this.groupBox2.Size = new System.Drawing.Size(610, 182);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -73,7 +73,7 @@ namespace Hangman
             // 
             this.lblLetter.BackColor = System.Drawing.Color.White;
             this.lblLetter.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblLetter.Location = new System.Drawing.Point(103, 34);
+            this.lblLetter.Location = new System.Drawing.Point(219, 29);
             this.lblLetter.Name = "lblLetter";
             this.lblLetter.Size = new System.Drawing.Size(176, 130);
             this.lblLetter.TabIndex = 0;
@@ -84,14 +84,14 @@ namespace Hangman
             this.grbButtons.BackColor = System.Drawing.Color.White;
             this.grbButtons.Location = new System.Drawing.Point(24, 306);
             this.grbButtons.Name = "grbButtons";
-            this.grbButtons.Size = new System.Drawing.Size(430, 111);
+            this.grbButtons.Size = new System.Drawing.Size(610, 111);
             this.grbButtons.TabIndex = 2;
             this.grbButtons.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.pBoxHangman);
-            this.groupBox3.Location = new System.Drawing.Point(464, 13);
+            this.groupBox3.Location = new System.Drawing.Point(637, 13);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(219, 404);
             this.groupBox3.TabIndex = 3;
@@ -104,6 +104,7 @@ namespace Hangman
             this.pBoxHangman.Location = new System.Drawing.Point(3, 16);
             this.pBoxHangman.Name = "pBoxHangman";
             this.pBoxHangman.Size = new System.Drawing.Size(213, 385);
+            this.pBoxHangman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxHangman.TabIndex = 0;
             this.pBoxHangman.TabStop = false;
             // 
@@ -111,7 +112,7 @@ namespace Hangman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 461);
+            this.ClientSize = new System.Drawing.Size(868, 461);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.grbButtons);
             this.Controls.Add(this.groupBox2);
