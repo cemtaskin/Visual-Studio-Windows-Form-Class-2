@@ -46,7 +46,7 @@ namespace SimpleCalculator
         }
        
         private void btnOperation(object sender,EventArgs e)
-        {
+        { 
             Button btn = (Button)sender;
             switch (Convert.ToInt32(btn.Tag))
             {
