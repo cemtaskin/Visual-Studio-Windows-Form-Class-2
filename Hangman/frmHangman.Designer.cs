@@ -30,7 +30,7 @@ namespace Hangman
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDesc = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblLetter = new System.Windows.Forms.Label();
             this.grbButtons = new System.Windows.Forms.GroupBox();
@@ -44,28 +44,30 @@ namespace Hangman
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblDesc);
             this.groupBox1.Location = new System.Drawing.Point(24, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(610, 97);
+            this.groupBox1.Size = new System.Drawing.Size(733, 97);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // label1
+            // lblDesc
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(3, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(604, 78);
-            this.label1.TabIndex = 0;
+            this.lblDesc.BackColor = System.Drawing.Color.White;
+            this.lblDesc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDesc.Location = new System.Drawing.Point(3, 16);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(727, 78);
+            this.lblDesc.TabIndex = 0;
+            this.lblDesc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblLetter);
             this.groupBox2.Location = new System.Drawing.Point(24, 117);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(610, 182);
+            this.groupBox2.Size = new System.Drawing.Size(736, 182);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -84,14 +86,14 @@ namespace Hangman
             this.grbButtons.BackColor = System.Drawing.Color.White;
             this.grbButtons.Location = new System.Drawing.Point(24, 306);
             this.grbButtons.Name = "grbButtons";
-            this.grbButtons.Size = new System.Drawing.Size(610, 111);
+            this.grbButtons.Size = new System.Drawing.Size(733, 111);
             this.grbButtons.TabIndex = 2;
             this.grbButtons.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.pBoxHangman);
-            this.groupBox3.Location = new System.Drawing.Point(637, 13);
+            this.groupBox3.Location = new System.Drawing.Point(763, 12);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(219, 404);
             this.groupBox3.TabIndex = 3;
@@ -112,7 +114,7 @@ namespace Hangman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 461);
+            this.ClientSize = new System.Drawing.Size(1085, 461);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.grbButtons);
             this.Controls.Add(this.groupBox2);
@@ -134,7 +136,7 @@ namespace Hangman
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label lblLetter;
         private System.Windows.Forms.GroupBox grbButtons;

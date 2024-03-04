@@ -52,6 +52,13 @@
     <Compile Include="frmHangman.Designer.cs">
       <DependentUpon>frmHangman.cs</DependentUpon>
     </Compile>
+    <Compile Include="fromHangman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fromHangman.Designer.cs">
+      <DependentUpon>fromHangman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HagmanWord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmHangman.resx">
